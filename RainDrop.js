@@ -5,7 +5,7 @@ class RainDrops{
         this.x = x;
         this.y = y;
         this.velocityY  = random(2,5);
-        this.color=color(random(0, 255), random(0, 255), random(0, 255));
+        this.color=color(0,139),(0,139), (0,139);
         World.add(world, this.body);
     }
      fall(speed){
